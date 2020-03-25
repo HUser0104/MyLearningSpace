@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Nov 24 14:33:17 CST 2019
+4543e56b7984e8ae3511ec74758a03988121695f@default-nexus-central-mirror-https\://maven.uxunchina.cn/nexus/content/repositories/central/.lastUpdated=1574576728729
+https\://maven.uxunchina.cn/nexus/content/repositories/central/.error=Could not transfer artifact org.apache.maven.plugins\:maven-site-plugin\:pom\:3.3 from/to nexus-central-mirror (https\://maven.uxunchina.cn/nexus/content/repositories/central/)\: Not authorized , ReasonPhrase\:Unauthorized.
+http\://repo.maven.apache.org/maven2/.lastUpdated=1574577197770

@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Mar 15 14:21:23 CST 2020
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact com.github.pagehelper\:pagehelper\:pom\: from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: Remote host terminated the handshake
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1584253283976

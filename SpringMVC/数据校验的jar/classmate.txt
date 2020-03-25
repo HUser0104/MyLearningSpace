@@ -1,0 +1,7 @@
+    <!-- https://mvnrepository.com/artifact/com.fasterxml/classmate -->
+    <dependency>
+      <groupId>com.fasterxml</groupId>
+      <artifactId>classmate</artifactId>
+      <version>0.0.8</version>
+    </dependency>
+  </dependencies>

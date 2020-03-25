@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 15:33:23 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583856153128
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.boot\:spring-boot-maven-plugin\:pom\:2.2.5.RELEASE from/to nexus (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.2.5.RELEASE/spring-boot-maven-plugin-2.2.5.RELEASE.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583912003480

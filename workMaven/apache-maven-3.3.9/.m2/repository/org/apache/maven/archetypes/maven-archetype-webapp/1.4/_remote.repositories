@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 18 14:57:29 CST 2019
+maven-archetype-webapp-1.4.jar>nexus=
+maven-archetype-webapp-1.4.pom>nexus-aliyun=
+maven-archetype-webapp-1.4.jar>nexus-aliyun=
+maven-archetype-webapp-1.4.pom>nexus=

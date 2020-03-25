@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:57:23 CST 2020
+velocity-tools-2.0.jar>nexus=
+velocity-tools-2.0.jar>nexus-aliyun=
+velocity-tools-2.0.pom>nexus-aliyun=
+velocity-tools-2.0.pom>nexus=

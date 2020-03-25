@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 25 15:52:09 CST 2020
+maven-invoker-3.0.1.pom>nexus-aliyun=
+maven-invoker-3.0.1.jar>nexus-aliyun=
+maven-invoker-3.0.1.pom>nexus=
+maven-invoker-3.0.1.jar>nexus=

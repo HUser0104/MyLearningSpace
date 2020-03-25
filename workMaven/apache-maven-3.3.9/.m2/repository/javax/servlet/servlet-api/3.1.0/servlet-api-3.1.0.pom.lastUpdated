@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 07 19:09:52 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583579392862
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact javax.servlet\:servlet-api\:pom\:3.1.0 from/to nexus (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/javax/servlet/servlet-api/3.1.0/servlet-api-3.1.0.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583579392314

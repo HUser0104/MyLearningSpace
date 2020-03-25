@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:55:39 CST 2020
+maven-deploy-plugin-2.8.2.jar>nexus=
+maven-deploy-plugin-2.8.2.pom>nexus-aliyun=
+maven-deploy-plugin-2.8.2.jar>nexus-aliyun=
+maven-deploy-plugin-2.8.2.pom>nexus=

@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:55:22 CST 2020
+asm-6.2.pom>nexus=
+asm-6.2.jar>nexus=
+asm-6.2.jar>nexus-aliyun=
+asm-6.2.pom>nexus-aliyun=

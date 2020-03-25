@@ -1,0 +1,1 @@
+mklink /J "%HOMEDRIVE%%HOMEPATH%\.m2" "%~dp0.m2"

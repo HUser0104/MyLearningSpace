@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:57:23 CST 2020
+jetty-util-6.1.25.jar>nexus=
+jetty-util-6.1.25.pom>nexus=
+jetty-util-6.1.25.pom>nexus-aliyun=
+jetty-util-6.1.25.jar>nexus-aliyun=

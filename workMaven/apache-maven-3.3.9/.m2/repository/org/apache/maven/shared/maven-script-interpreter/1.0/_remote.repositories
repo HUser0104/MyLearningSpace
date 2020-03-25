@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 25 15:52:09 CST 2020
+maven-script-interpreter-1.0.pom>nexus=
+maven-script-interpreter-1.0.pom>nexus-aliyun=
+maven-script-interpreter-1.0.jar>nexus-aliyun=
+maven-script-interpreter-1.0.jar>nexus=

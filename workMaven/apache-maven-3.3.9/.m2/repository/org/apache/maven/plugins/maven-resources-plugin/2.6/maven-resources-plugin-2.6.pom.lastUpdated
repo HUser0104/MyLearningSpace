@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 24 22:05:28 CST 2020
+http\://repo.maven.apache.org/maven2/.lastUpdated=1574576935076
+4543e56b7984e8ae3511ec74758a03988121695f@default-nexus-central-mirror-https\://maven.uxunchina.cn/nexus/content/repositories/central/.lastUpdated=1574576726729
+https\://maven.uxunchina.cn/nexus/content/repositories/central/.error=Could not transfer artifact org.apache.maven.plugins\:maven-resources-plugin\:pom\:2.6 from/to nexus-central-mirror (https\://maven.uxunchina.cn/nexus/content/repositories/central/)\: Not authorized , ReasonPhrase\:Unauthorized.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1585058728205

@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 00:16:44 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583857004558
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact juint\:juint\:pom\:1 from/to nexus (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/juint/juint/1/juint-1.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583857001864

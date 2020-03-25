@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 07 17:23:29 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583573009067
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact jstl\:jstl\:jar\: from/to nexus (http\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:80 [repo.maven.apache.org/151.101.52.215] failed\: Connection timed out\: connect
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583572987991

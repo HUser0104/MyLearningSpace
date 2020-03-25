@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 24 22:06:10 CST 2020
+plexus-interpolation-1.15.jar>nexus=
+plexus-interpolation-1.15.pom>nexus=
+plexus-interpolation-1.15.pom>nexus-aliyun=

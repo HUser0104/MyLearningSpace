@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:55:34 CST 2020
+maven-plugin-annotations-3.5.2.pom>nexus=
+maven-plugin-annotations-3.5.2.jar>nexus-aliyun=
+maven-plugin-annotations-3.5.2.jar>nexus=
+maven-plugin-annotations-3.5.2.pom>nexus-aliyun=

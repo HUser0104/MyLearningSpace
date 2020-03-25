@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Mar 24 22:05:56 CST 2020
+junit-3.8.2.pom>nexus=
+junit-3.8.2.jar>nexus=
+junit-3.8.2.pom>nexus-aliyun=
+junit-3.8.2.jar>nexus-aliyun=

@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Mar 21 19:39:48 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583743709305
+http\://maven.aliyun.com/nexus/content/groups/public/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact error\:lombok\:pom\:unknown from/to nexus (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/error/lombok/unknown/lombok-unknown.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1584790788280

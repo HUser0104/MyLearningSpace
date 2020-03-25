@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 18 14:57:45 CST 2019
+junit-4.11.pom>nexus-aliyun=
+junit-4.11.jar>nexus-aliyun=
+junit-4.11.pom>nexus=
+junit-4.11.jar>nexus=

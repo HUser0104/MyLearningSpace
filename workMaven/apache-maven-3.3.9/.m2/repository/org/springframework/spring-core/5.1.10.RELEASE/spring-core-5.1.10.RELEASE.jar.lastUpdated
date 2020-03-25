@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Mar 06 13:45:58 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583473558727
+http\://maven.aliyun.com/nexus/content/groups/public/.error=Could not transfer artifact org.springframework\:spring-core\:jar\:5.1.10.RELEASE from/to nexus-aliyun (http\://maven.aliyun.com/nexus/content/groups/public)\: \u4E0D\u77E5\u9053\u8FD9\u6837\u7684\u4E3B\u673A\u3002 (maven.aliyun.com)
+@default-nexus-aliyun-http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583473558698
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-core\:jar\:5.1.10.RELEASE from/to nexus (http\://repo.maven.apache.org/maven2)\: repo.maven.apache.org

@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Mar 11 14:55:23 CST 2020
+@default-nexus-http\://repo.maven.apache.org/maven2/.lastUpdated=1583909559375
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-surefire-plugin\:pom\:2.22.2 from/to nexus (http\://repo.maven.apache.org/maven2)\: Connect to repo.maven.apache.org\:80 [repo.maven.apache.org/151.101.196.215] failed\: Connection timed out\: connect
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1583909723483
