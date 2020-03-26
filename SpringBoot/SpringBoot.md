@@ -535,6 +535,153 @@ public class Proson {
     private Dog dog;
 ```
 
+## p6:配置引入Spring的组件-@PropertySource、@ImportResource、@Bean
 
+​	1.@PropertySource:加载指定的配置文件;@ConfigurationProperties默认读取的是主配置 不想让主要的配置变得不可读
+
+```java
+@PropertySource(value = {"classpath:proson.properties"})
+@Component
+@ConfigurationProperties(prefix = "proson")
+//@Validated
+public class Proson {
+//    @Value("${proson.name}")
+//    @Email
+    private String name;
+//    @Value("#{22*2}")
+    private Integer age;
+//    @Value("true")
+    private Boolean boss;
+    private Date birth;
+    private Map<String, Object> maps;
+    private List<Object> lists;
+    private Dog dog;
+```
+
+​	2.@ImportResource::导入spring的配置文件,让配置文件里面的内容生效
+
+​		2.1 SpringBoot 里面没有Spring的配置文件,我们自己编写的配置文件,也不能识别;
+
+​		2.2 想让Spring的配置文件生效,加载进来; .@ImportResource标注在一个配置类上
+
+```java
+@ImportResource(value = {"classpath:beans.xml"})
+导入spring的配置文件  让其生效
+```
+
+​	
+
+​	不来编写spring的配置文件了
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="org.bt.bean.Dog" id="dog"></bean>
+</beans>
+```
+
+​	3.SpringBoot推荐给容器中添加组件的方式:全注解的方式
+
+​		3.1 配置类=========配置文件
+
+```java
+/**
+ * @Configuration 来指明当前类为spring的配置类
+ */
+@Configuration
+public class MyAppConfig {
+
+    //@Bean注解来标明此方法为<bean></bean>   bean默认名称就是方法的名称
+    @Bean
+    public Dog dog(){
+        return new Dog();
+    }
+}
+```
+
+## p7:配置-配置文件占位符
+
+​	1.随机数
+
+```xml
+${random. value}、${random.int}、 ${random.long}
+${random. int(10)}、${random. int[1024, 65536]}
+```
+
+​	2.占位符获取之前配置的值,如果没有指定的值:指定默认值
+
+```properties
+proson.name=张三${random.uuid}
+proson.age=${random.int(100)}
+proson.birth=2017/01/01
+proson.boss=false
+proson.lists=1,2,3
+proson.maps.k1=v1
+proson.maps..k2=v2
+proson.dog.name=${proson.name:xiaomi}_dog
+proson.dog.age=20
+```
+
+## p8:配置-Profile多环境支持
+
+​	1.多Profile环境文件
+
+​		1.1 我们在编写主文件的时候，文件名可以是application-{profile}.properties/yaml
+
+​		1.2 默认使用的是application.proeperties的配置
+
+​	2.yaml支持多文档快方式
+
+```yaml
+server:
+  port: 1024
+spring:
+  profiles:
+    active: prod
+#  开发环境
+---
+server:
+  port: 1029
+spring:
+  profiles: dev
+#发布环境
+---
+server:
+  port: 10299
+spring:
+  profiles: prod
+```
+
+​	3.激活指定profile
+
+​		3.1 在配置文件中指定spring.profile.active=dev或者spring.profile.active=prod
+
+```properties
+#激活开发环境
+spring.profiles.active=dev
+#激活发布环境
+spring.profiles.active=prod
+```
+
+​		3.2 命令行指定环境
+
+​			3.2.1 点你edit Configurations
+
+![1585195179190](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\1585195179190.png)
+
+​			3.2.2  在这个里面输入  ---spring.profiles.active=dev或者prod
+
+![1585195380417](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\1585195380417.png)
+
+​		3.3 打包之后切换环境：java -jar .\spring-boot-02-config-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+
+​		![1585195786384](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\1585195786384.png)
+
+​		3.4 虚拟机切换环境:-Dspring.profiles.active=dev
+
+![1585195910261](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\1585195910261.png)
 
 # 			第三章:Spring Boot与日志
+
